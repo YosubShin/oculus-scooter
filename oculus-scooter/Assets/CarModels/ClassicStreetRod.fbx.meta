@@ -1,0 +1,117 @@
+fileFormatVersion: 2
+guid: 8315f10654324ef4080edde58789c954
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Veh6_FR_Wheel
+    100004: Veh6_LF_Wheel
+    100006: Veh6_LR_Wheel
+    100008: Veh6_RR_Wheel
+    100010: Vehicle6_Chassis
+    100012: FR_Wheel
+    100014: LF_Wheel
+    100016: LR_Wheel
+    100018: RR_Wheel
+    100020: Vehicle_Chassis
+    100022: Chassis
+    400000: //RootNode
+    400002: Veh6_FR_Wheel
+    400004: Veh6_LF_Wheel
+    400006: Veh6_LR_Wheel
+    400008: Veh6_RR_Wheel
+    400010: Vehicle6_Chassis
+    400012: FR_Wheel
+    400014: LF_Wheel
+    400016: LR_Wheel
+    400018: RR_Wheel
+    400020: Vehicle_Chassis
+    400022: Chassis
+    2300000: Veh6_FR_Wheel
+    2300002: Veh6_LF_Wheel
+    2300004: Veh6_LR_Wheel
+    2300006: Veh6_RR_Wheel
+    2300008: Vehicle6_Chassis
+    2300010: FR_Wheel
+    2300012: LF_Wheel
+    2300014: LR_Wheel
+    2300016: RR_Wheel
+    2300018: Vehicle_Chassis
+    2300020: Chassis
+    3300000: Veh6_FR_Wheel
+    3300002: Veh6_LF_Wheel
+    3300004: Veh6_LR_Wheel
+    3300006: Veh6_RR_Wheel
+    3300008: Vehicle6_Chassis
+    3300010: FR_Wheel
+    3300012: LF_Wheel
+    3300014: LR_Wheel
+    3300016: RR_Wheel
+    3300018: Vehicle_Chassis
+    3300020: Chassis
+    4300000: Veh6_LR_Wheel
+    4300002: Veh6_LF_Wheel
+    4300004: Veh6_RR_Wheel
+    4300006: Veh6_FR_Wheel
+    4300008: Vehicle6_Chassis
+    4300010: LR_Wheel
+    4300012: LF_Wheel
+    4300014: RR_Wheel
+    4300016: FR_Wheel
+    4300018: Vehicle_Chassis
+    4300020: Chassis
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 1
+  userData: 
