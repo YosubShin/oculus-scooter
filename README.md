@@ -12,4 +12,24 @@ Our main source of inspiration was a friend of ours who gets heavy motion sickne
 
 We had a spare pair of roller skates that we wanted to use for as an input to a VR application. Initially, we were thinking of walking simulations, but quickly decided it would not be very exciting. As we continued brainstorming, we looked through Dick's catalogue of sporting devices and spotted scooters. Everyone on our team immediately agreed to build a scooter simulator and we zoomed down to Dick's and Home Depot first thing in the morning on Saturday.
 
-We started out by disassembling the scooter wheels and cutting out wood planks to hold the scooter still. All of our members were virtually new to all of the tools that we used for this project, but we managed to improvise especially hardwarewise. 
+We started out by disassembling the scooter wheels and cutting out wood planks to hold the scooter still. All of our members were virtually new to all of the tools that we used for this project, but we managed to improvise, especially hardware-wise. We are especially proud of our instrumented roller skate shoe. It features an LED and photocell which measures the rotation of the wheels as the user kicks the ground. To further improve detection, we used reflective packaging material from chips to direct the light from LED to the photocell as the wheel is rotating. The picture of the wheel is shown below.
+
+![Alt text](https://dl.dropboxusercontent.com/u/16159349/skate_shoe.jpg "Instrumented Skating Shoes")
+
+The main audience for our application are any fans of VR applications, but especially for people who have motion sickness. Our application can also have huge business potential, because it is a proof of concept of how we can reduce motion sickness from ever so popular virtual reality technology. After we finished our prototype, we brought in our friend with motion sickness and he remarked that he felt noticeably more at ease with our application. Our team was very satisfied to see a smile on our friend's face.
+
+## Tools and Resources
+Oculus Rift, Spark Core, Arduino, Unity 3D, Blender, C++, C#, Javascript
+
+## Team Members
+- Se-Joon Chung (sejoonc@cmu.edu)
+- Seungwon Shin (shin46@illinois.edu)
+- Yosub Shin (shin14@illinois.edu)
+- Ji Oh Yoo (jiohy@andrew.cmu.edu)
+
+## Sponsor Prizes
+- HackIllinois Top Three Hardware Hacks
+- GoDaddy's Best Small Business Application
+- Google's Best Hack
+- Best Spark Hack
+- Thiel Capital's Hack with Product/Business Potential
