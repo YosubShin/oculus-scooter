@@ -12,3 +12,4 @@ Our main source of inspiration was a friend of ours who gets heavy motion sickne
 
 We had a spare pair of roller skates that we wanted to use for as an input to a VR application. Initially, we were thinking of walking simulations, but quickly decided it would not be very exciting. As we continued brainstorming, we looked through Dick's catalogue of sporting devices and spotted scooters. Everyone on our team immediately agreed to build a scooter simulator and we zoomed down to Dick's and Home Depot first thing in the morning on Saturday.
 
+We started out by disassembling the scooter wheels and cutting out wood planks to hold the scooter still. All of our members were virtually new to all of the tools that we used for this project, but we managed to improvise especially hardwarewise. 
