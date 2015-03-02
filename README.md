@@ -1,9 +1,6 @@
 # OculuScooter
 OculuScooter Project for HackIllinois 2015
 
-## Name
-OculuScooter
-
 ##Tagline
 OculuScooter is a virtual scooter simulator which uses real scooter handle and your own foot as inputs.
 
@@ -27,12 +24,8 @@ Oculus Rift DK2, Spark Core, Arduino, Unity 3D, Blender, C++, C#, JavaScript
 - Yosub Shin (shin14@illinois.edu)
 - Ji Oh Yoo (jiohy@andrew.cmu.edu)
 
-## Sponsor Prizes
-- HackIllinois Top Three Hardware Hacks
-- GoDaddy's Best Small Business Application
-- Google's Best Hack
-- Best Spark Hack
-- Thiel Capital's Hack with Product/Business Potential
+## Prizes
+- We won the first place in hardware hacks at HackIllinois2015!
 
 ## References
 - http://fatboxsoftware.com/resources/4573006782
