@@ -2,7 +2,7 @@
 OculuScooter Project for HackIllinois 2015
 
 ##Tagline
-OculuScooter is a virtual scooter simulator which uses real scooter handle and your own foot as inputs.
+OculuScooter is an award winning virtual scooter simulator which uses real scooter handle and your own foot as inputs.
 
 ##Description
 Our main source of inspiration was a friend of ours who gets heavy motion sickness from virtual reality (VR) applications. We had heard from Professor LaValle that a user is less likely to get motion sickness if the VR application moves as a direct result of the user's physical movement. A good example of this is the [Birdly](http://birdly.zhdk.ch/about/) flying simulator which allows a user to fly through the scene like a bird by flapping his arms as if they were wings.
@@ -25,7 +25,8 @@ Oculus Rift DK2, Spark Core, Arduino, Unity 3D, Blender, C++, C#, JavaScript
 - Ji Oh Yoo (jiohy@andrew.cmu.edu)
 
 ## Prizes
-- We won the first place in hardware hacks at HackIllinois2015!
+- We won the first place in hardware hacks at ![Alt text](http://hackillinois.org "HackIllinois 2015")!
+- Check out our demo video at ![Alt text](https://vimeo.com/120945906 "Vimeo"), and our ![Alt text](http://hackillinois2015s.challengepost.com/submissions/33881-oculuscooter, "ChallengePost listing")!
 
 ## References
 - http://fatboxsoftware.com/resources/4573006782
