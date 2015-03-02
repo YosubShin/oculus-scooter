@@ -62,9 +62,6 @@ function Update () {
 
 	// finally, apply the values to the wheels.	The torque applied is divided by the current gear, and
 	// multiplied by the user input variable.
-//	FrontLeftWheel.motorTorque = EngineTorque / GearRatio[CurrentGear] * Input.GetAxis("Vertical");
-//	FrontRightWheel.motorTorque = EngineTorque / GearRatio[CurrentGear] * Input.GetAxis("Vertical");
-
 	var normalizedThrottleValue : float = throttleValue / 20.0;
 	
 	var keyboardVerticalInput = Input.GetAxis("Vertical");
@@ -74,25 +71,26 @@ function Update () {
 	FrontLeftWheel.motorTorque = EngineTorque / GearRatio[CurrentGear] * normalizedThrottleValue;
 	FrontRightWheel.motorTorque = EngineTorque / GearRatio[CurrentGear] * normalizedThrottleValue;
 	
-	FrontLeftWheel.brakeTorque = 50;
-	FrontRightWheel.brakeTorque = 50;
+	FrontLeftWheel.brakeTorque = 100;
+	FrontRightWheel.brakeTorque = 100;
 	
-//	print("vertical" + Input.GetAxis("Vertical"));
-		
-	// the steer angle is an arbitrary value multiplied by the user input.
-//	FrontLeftWheel.steerAngle = steeringStrength * Input.GetAxis("Horizontal");
-//	FrontRightWheel.steerAngle = steeringStrength * Input.GetAxis("Horizontal");
-	
-	var theAngle = SerialRead.GetAngle() - initialAngle;
-	FrontLeftWheel.steerAngle = theAngle;
-	FrontRightWheel.steerAngle = theAngle;
+	var keyboardHorizontalInput = Input.GetAxis("Horizontal");
+	if (keyboardHorizontalInput != 0) {
+		// the steer angle is an arbitrary value multiplied by the user input.
+		FrontLeftWheel.steerAngle = steeringStrength * Input.GetAxis("Horizontal");
+		FrontRightWheel.steerAngle = steeringStrength * Input.GetAxis("Horizontal");		
+	} else {
+		var theAngle = SerialRead.GetAngle() - initialAngle;
+		FrontLeftWheel.steerAngle = theAngle;
+		FrontRightWheel.steerAngle = theAngle;
+	}
 	
 //	print(theAngle);
 //	requestThrottleValue();
 //	print(SerialRead.GetAngle().ToString());
 	if (w == null || System.DateTime.Now.Ticks / 10000 - wIssuedAt > 1000) {
 //		print(normalizedThrottleValue + " " + rigidbody.velocity.magnitude);
-		gameObject.Find("debugtext").GetComponentInChildren(TextMesh).text = "Speed: " + rigidbody.velocity.magnitude.ToString("F1") + " Gas: "+ (normalizedThrottleValue).ToString("F1")+ " Steering: "+(theAngle).ToString("F1");
+		gameObject.Find("debugtext").GetComponentInChildren(TextMesh).text = "Speed: " + rigidbody.velocity.magnitude.ToString("F1") + " Throttle: "+ (normalizedThrottleValue).ToString("F1")+ " Steering: "+(theAngle).ToString("F1");
 		wIssuedAt = System.DateTime.Now.Ticks / 10000;
 		requestThrottleValue();
 	}
