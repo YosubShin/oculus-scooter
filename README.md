@@ -25,8 +25,8 @@ Oculus Rift DK2, Spark Core, Arduino, Unity 3D, Blender, C++, C#, JavaScript
 - Ji Oh Yoo (jiohy@andrew.cmu.edu)
 
 ## Prizes
-- We won the first place in hardware hacks at ![Alt text](http://hackillinois.org "HackIllinois 2015")!
-- Check out our demo video at ![Alt text](https://vimeo.com/120945906 "Vimeo"), and our ![Alt text](http://hackillinois2015s.challengepost.com/submissions/33881-oculuscooter, "ChallengePost listing")!
+- We won the first place in hardware hacks at [HackIllinois 2015](http://hackillinois.org)!
+- Check out our demo video at [Vimeo](https://vimeo.com/120945906), and our [ChallengePost listing](http://hackillinois2015s.challengepost.com/submissions/33881-oculuscooter)!
 
 ## References
 - http://fatboxsoftware.com/resources/4573006782
