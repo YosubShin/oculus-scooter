@@ -2,7 +2,7 @@
 OculuScooter Project for HackIllinois 2015
 
 ## Name
-OculusScooter
+OculuScooter
 
 ##Tagline
 OculuScooter is a virtual scooter simulator which uses real scooter handle and your own foot as inputs.
@@ -33,3 +33,10 @@ Oculus Rift DK2, Spark Core, Arduino, Unity 3D, Blender, C++, C#, JavaScript
 - Google's Best Hack
 - Best Spark Hack
 - Thiel Capital's Hack with Product/Business Potential
+
+## References
+- http://fatboxsoftware.com/resources/4573006782
+- http://www.geekmomprojects.com/gyroscopes-and-accelerometers-on-a-chip/
+- https://community.spark.io/t/spark-core-vs-plantsmart-round-1/4201
+- http://docs.spark.io/
+- http://playground.arduino.cc/Main/MPU-6050#sketch
