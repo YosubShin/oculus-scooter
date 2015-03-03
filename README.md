@@ -34,3 +34,5 @@ Oculus Rift DK2, Spark Core, Arduino, Unity 3D, Blender, C++, C#, JavaScript
 - https://community.spark.io/t/spark-core-vs-plantsmart-round-1/4201
 - http://docs.spark.io/
 - http://playground.arduino.cc/Main/MPU-6050#sketch
+- http://tf3dm.com/3d-model/mgp-scooter-29049.html
+- http://www.turbosquid.com/3d-models/human-male-3d-model/504883
